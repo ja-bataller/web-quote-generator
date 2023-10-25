@@ -1,13 +1,75 @@
 body {
+  background-color: #CCC8AA;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom_blockquote {
+  width: 680px;
+  height: 510px;
+  background-color: #FFF2D8;
+  margin: 0;
+  border-radius: 15px;
+  padding: 48px;
+  box-shadow: 15px 20px #555843;
+  box-sizing: border-box;
+}
+
+#symbol {
+  font-family: "Libre Franklin", sans-serif !important;
+  font-size: 200px;
+  color: #555843;
+  font-weight: 900;
+  display: block;
+  height: 80px;
+  line-height: 165px;
+}
+
+#quote {
+  font-family: "Libre Franklin", sans-serif !important;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #113946;
+}
+
+.custom_hr {
+  border: 0.5px solid #555843;
+}
+
+
+#name {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #113946;
+  float: right;
+}
+
+#detail {
+  font-weight: 100;
+  font-size: 14px;
+  float: right;
+}
+
+.btn_color{
+  color: #C08261;
+}
+
+.btn_color :hover{
+  color: #9A3B3B;
+  transition-duration: 300ms;
+}
+
+.bg-secondary-custom {
+  background-color: #d8d8d848;
+  color: black !important;
+
 }
