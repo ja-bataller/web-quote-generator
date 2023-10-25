@@ -79,9 +79,9 @@ function App() {
 
 
                     <div className="button mt-2 d-flex flex-row align-items-center">
-                      <a href='https://johnanthonybataller.netlify.app/' target='_blank' className="btn btn-outline-dark w-100"><i class="fa-solid fa-file-csv"></i></a>
-                      <a href='https://www.linkedin.com/in/johnanthonybataller-ce/' target='_blank' className="btn btn-outline-primary w-100 ms-2"><i class="fa-brands fa-linkedin linked"></i></a>
-                      <a href='https://github.com/ja-bataller' target='_blank' className="btn btn-outline-dark w-100 ms-2"><i class="fa-brands fa-github"></i></a>
+                      <a href='https://johnanthonybataller.netlify.app/' target='_blank' rel="noreferrer className="btn btn-outline-dark w-100"><i class="fa-solid fa-file-csv"></i></a>
+                      <a href='https://www.linkedin.com/in/johnanthonybataller-ce/' rel="noreferrer target='_blank' className="btn btn-outline-primary w-100 ms-2"><i class="fa-brands fa-linkedin linked"></i></a>
+                      <a href='https://github.com/ja-bataller' target='_blank' rel="noreferrer className="btn btn-outline-dark w-100 ms-2"><i class="fa-brands fa-github"></i></a>
                     </div>
                   </div>
                 </div>
